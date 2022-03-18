@@ -1,0 +1,75 @@
+{
+  "connect.name": "GroundTruthNew",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "default": null,
+      "name": "time",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "camera_b",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "default": null,
+      "name": "camera_c",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "default": null,
+      "name": "camera_d",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "default": null,
+      "name": "camera_e",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "default": null,
+      "name": "camera_f",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "default": null,
+      "name": "camera_g",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "name": "modified",
+      "type": {
+        "connect.name": "org.apache.kafka.connect.data.Timestamp",
+        "connect.version": 1,
+        "type": "long"
+      }
+    }
+  ],
+  "name": "GroundTruthNew",
+  "type": "record"
+}
